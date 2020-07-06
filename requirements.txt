@@ -1,3 +1,4 @@
 pytube3
 ffmpeg-python
 argparse
+pyqrcode
