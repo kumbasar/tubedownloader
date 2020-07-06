@@ -31,20 +31,56 @@ optional arguments:
   -s SKIP, --skip SKIP  Skip existing (default: False)
 ```
 
-Example:
+## Example
 
 ```bash
-./viddownloader.py --youtube 'http://youtube.com/watch?v=9bZkp7q19f0'
+./viddownloader.py --youtube 'https://www.youtube.com/watch?v=2STPr1Taaw8' 
 ```
 
-Output example:
+Output:
 
 ```bash
+* Title: YouTube
+* Author: The B1M
+* Desciption: Rising 435 metres from a small site on Manhattan's Billionaire's Row, 111W57 is the thinnest skyscraper ever constructed. For more by The B1M subscribe now - http://ow.ly/GxW7y  
+
+Full story here - https://www.theb1m.com/video/building-the-worlds-thinnest-skyscraper
+
+Go Behind The B1M. Click "JOIN" here - https://bit.ly/2Ru3M6O
+
+The B1M Merch store - https://teespring.com/stores/theb1m
+
+Narrated by Fred Mills. Additional footage and images courtesy of The Dronalist, Max Touhey, JDS Development Group, SHoP Architects, Google Earth, Landmark Preservation Commission, James Durkin, JE Dolci, Michael Young, and Dan Cortese.
+
+For more from The Dronalist visit - https://bit.ly/3dCW0iM
+
+For more from Max Touhey visit - http://www.metouhey.com/
+
+View this video and more at - https://www.TheB1M.com 
+Follow us on Twitter - http://www.twitter.com/TheB1M
+Like us on Facebook - http://www.facebook.com/TheB1M
+Follow us on LinkedIn - https://www.linkedin.com/company/the-b1m-ltd
+Follow us on Instagram - http://instagram.com/theb1m/
+
+#construction #architecture #NewYork
+
+We welcome you sharing our content to inspire others, but please be nice and play by our rules: http://www.theb1m.com/guidelines-for-sharing
+
+Our content may only be embedded onto third party websites by arrangement. We have established partnerships with domains to share our content and help it reach a wider audience. If you are interested in partnering with us please contact Enquiries@TheB1M.com.
+
+Ripping and/or editing this video is illegal and will result in legal action. 
+
+© 2020 The B1M Limited
+* Is age Restictred?  False
+* Views: 734686
+
 Downloading video part:
 <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="30fps" vcodec="avc1.640028" progressive="False" type="video">
 Downloading audio part:
 <Stream: itag="140" mime_type="audio/mp4" abr="128kbps" acodec="mp4a.40.2" progressive="False" type="audio">
-Merging
+
+
+Merging..
 ffmpeg version git-2020-06-28-4cfcfb3 Copyright (c) 2000-2020 the FFmpeg developers
   built with Apple clang version 11.0.0 (clang-1100.0.33.8)
   configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvmaf --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libgsm --enable-appkit --enable-avfoundation --enable-coreimage --enable-audiotoolbox
@@ -61,32 +97,32 @@ Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'tmp/audio.mp4':
     major_brand     : dash
     minor_version   : 0
     compatible_brands: iso6mp41
-    creation_time   : 2020-01-13T16:32:54.000000Z
-  Duration: 00:04:12.26, start: 0.000000, bitrate: 129 kb/s
-    Stream #0:0(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 5 kb/s (default)
+    creation_time   : 2020-07-01T21:04:52.000000Z
+  Duration: 00:06:55.75, start: 0.000000, bitrate: 129 kb/s
+    Stream #0:0(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 3 kb/s (default)
     Metadata:
-      creation_time   : 2020-01-13T16:32:54.000000Z
+      creation_time   : 2020-07-01T21:04:52.000000Z
       handler_name    : ISO Media file produced by Google Inc.
 Input #1, mov,mp4,m4a,3gp,3g2,mj2, from 'tmp/video.mp4':
   Metadata:
     major_brand     : dash
     minor_version   : 0
     compatible_brands: iso6avc1mp41
-    creation_time   : 2020-01-13T16:46:24.000000Z
-  Duration: 00:04:12.17, start: 0.000000, bitrate: 3283 kb/s
-    Stream #1:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 15 kb/s, 23.98 fps, 23.98 tbr, 24k tbn, 47.95 tbc (default)
+    creation_time   : 2020-07-01T21:25:42.000000Z
+  Duration: 00:06:55.70, start: 0.000000, bitrate: 2222 kb/s
+    Stream #1:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 37 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
     Metadata:
-      creation_time   : 2020-01-13T16:46:24.000000Z
+      creation_time   : 2020-07-01T21:25:42.000000Z
       handler_name    : ISO Media file produced by Google Inc.
 File 'out.mp4' already exists. Overwrite? [y/N] y
 Stream mapping:
   Stream #0:0 -> #0:0 (aac (native) -> aac (native))
   Stream #1:0 -> #0:1 (h264 (native) -> h264 (libx264))
 Press [q] to stop, [?] for help
-[libx264 @ 0x7fd495809a00] using SAR=1/1
-[libx264 @ 0x7fd495809a00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
-[libx264 @ 0x7fd495809a00] profile High, level 4.0, 4:2:0, 8-bit
-[libx264 @ 0x7fd495809a00] 264 - core 160 - H.264/MPEG-4 AVC codec - Copyleft 2003-2020 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=23 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[libx264 @ 0x7faebf835c00] using SAR=1/1
+[libx264 @ 0x7faebf835c00] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x7faebf835c00] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0x7faebf835c00] 264 - core 160 - H.264/MPEG-4 AVC codec - Copyleft 2003-2020 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=12 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
 Output #0, mp4, to 'out.mp4':
   Metadata:
     major_brand     : dash
@@ -95,37 +131,39 @@ Output #0, mp4, to 'out.mp4':
     encoder         : Lavf58.47.100
     Stream #0:0(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
     Metadata:
-      creation_time   : 2020-01-13T16:32:54.000000Z
+      creation_time   : 2020-07-01T21:04:52.000000Z
       handler_name    : ISO Media file produced by Google Inc.
       encoder         : Lavc58.93.100 aac
-    Stream #0:1(und): Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], q=-1--1, 23.98 fps, 24k tbn, 23.98 tbc (default)
+    Stream #0:1(und): Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], q=-1--1, 30 fps, 15360 tbn, 30 tbc (default)
     Metadata:
-      creation_time   : 2020-01-13T16:46:24.000000Z
+      creation_time   : 2020-07-01T21:25:42.000000Z
       handler_name    : ISO Media file produced by Google Inc.
       encoder         : Lavc58.93.100 libx264
     Side data:
       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
-frame= 6046 fps= 30 q=-1.0 Lsize=  143680kB time=00:04:12.26 bitrate=4665.9kbits/s speed=1.26x
-video:139599kB audio:3907kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.121689%
-[aac @ 0x7fd495808800] Qavg: 1219.834
-[libx264 @ 0x7fd495809a00] frame I:173   Avg QP:19.87  size: 77797
-[libx264 @ 0x7fd495809a00] frame P:3346  Avg QP:23.22  size: 27598
-[libx264 @ 0x7fd495809a00] frame B:2527  Avg QP:25.09  size: 14699
-[libx264 @ 0x7fd495809a00] consecutive B-frames: 35.2% 20.6% 20.0% 24.2%
-[libx264 @ 0x7fd495809a00] mb I  I16..4: 17.9% 75.1%  7.1%
-[libx264 @ 0x7fd495809a00] mb P  I16..4:  6.7% 19.9%  1.0%  P16..4: 33.9%  7.0%  2.0%  0.0%  0.0%    skip:29.5%
-[libx264 @ 0x7fd495809a00] mb B  I16..4:  1.5%  5.0%  0.4%  B16..8: 30.5%  5.0%  0.8%  direct: 1.8%  skip:55.1%  L0:51.3% L1:43.3% BI: 5.3%
-[libx264 @ 0x7fd495809a00] 8x8 transform intra:72.7% inter:87.1%
-[libx264 @ 0x7fd495809a00] coded y,uvDC,uvAC intra: 42.4% 49.6% 11.1% inter: 10.0% 12.2% 0.3%
-[libx264 @ 0x7fd495809a00] i16 v,h,dc,p: 24% 33%  9% 33%
-[libx264 @ 0x7fd495809a00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 23% 21%  4%  5%  5%  6%  5%  5%
-[libx264 @ 0x7fd495809a00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 24% 13%  4%  8%  7%  7%  5%  4%
-[libx264 @ 0x7fd495809a00] i8c dc,h,v,p: 49% 23% 21%  8%
-[libx264 @ 0x7fd495809a00] Weighted P-Frames: Y:1.8% UV:1.6%
-[libx264 @ 0x7fd495809a00] ref P L0: 74.0% 14.7%  8.0%  3.2%  0.0%
-[libx264 @ 0x7fd495809a00] ref B L0: 90.1%  8.5%  1.4%
-[libx264 @ 0x7fd495809a00] ref B L1: 98.5%  1.5%
-[libx264 @ 0x7fd495809a00] kb/s:4535.01
+frame=12471 fps= 41 q=-1.0 Lsize=  167937kB time=00:06:55.75 bitrate=3309.0kbits/s speed=1.36x    
+video:160968kB audio:6530kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.261837%
+[aac @ 0x7faebf809e00] Qavg: 288.988
+[libx264 @ 0x7faebf835c00] frame I:73    Avg QP:18.01  size:173902
+[libx264 @ 0x7faebf835c00] frame P:3609  Avg QP:22.02  size: 31795
+[libx264 @ 0x7faebf835c00] frame B:8789  Avg QP:25.11  size:  4254
+[libx264 @ 0x7faebf835c00] consecutive B-frames:  3.3%  6.5%  5.3% 85.0%
+[libx264 @ 0x7faebf835c00] mb I  I16..4: 15.4% 58.4% 26.3%
+[libx264 @ 0x7faebf835c00] mb P  I16..4:  3.0%  6.1%  0.4%  P16..4: 33.6% 11.4%  7.0%  0.0%  0.0%    skip:38.5%
+[libx264 @ 0x7faebf835c00] mb B  I16..4:  0.3%  0.4%  0.0%  B16..8: 31.3%  1.3%  0.2%  direct: 0.7%  skip:65.8%  L0:44.8% L1:50.6% BI: 4.6%
+[libx264 @ 0x7faebf835c00] 8x8 transform intra:61.9% inter:75.3%
+[libx264 @ 0x7faebf835c00] coded y,uvDC,uvAC intra: 27.6% 31.3% 4.9% inter: 7.0% 5.7% 0.1%
+[libx264 @ 0x7faebf835c00] i16 v,h,dc,p: 33% 35% 10% 22%
+[libx264 @ 0x7faebf835c00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 23% 33%  2%  2%  2%  3%  2%  3%
+[libx264 @ 0x7faebf835c00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 41% 21% 10%  4%  5%  5%  5%  4%  5%
+[libx264 @ 0x7faebf835c00] i8c dc,h,v,p: 59% 22% 16%  3%
+[libx264 @ 0x7faebf835c00] Weighted P-Frames: Y:6.1% UV:4.5%
+[libx264 @ 0x7faebf835c00] ref P L0: 62.2% 16.9% 16.5%  4.3%  0.1%
+[libx264 @ 0x7faebf835c00] ref B L0: 92.0%  6.8%  1.3%
+[libx264 @ 0x7faebf835c00] ref B L1: 97.7%  2.3%
+[libx264 @ 0x7faebf835c00] kb/s:3172.11
+
+
 Check out: out.mp4
 ```
 
