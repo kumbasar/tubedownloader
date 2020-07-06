@@ -1,4 +1,5 @@
 # tubedownloader
+
 A fancy Youtube Video Downloader
 
 ## Installation
@@ -18,6 +19,7 @@ pip3 install -r requirements.txt
 ## Usage
 
 See help:
+
 ```bash
 ./viddownloader.py --help
 usage: viddownloader.py [-h] -u YOUTUBE [-o OUTPUT] [-s SKIP]
@@ -73,7 +75,10 @@ Ripping and/or editing this video is illegal and will result in legal action.
 © 2020 The B1M Limited
 * Is age Restictred?  False
 * Views: 734686
-
+* QR:
+```
+![QR](img/qr.png)
+```bash
 Downloading video part:
 <Stream: itag="137" mime_type="video/mp4" res="1080p" fps="30fps" vcodec="avc1.640028" progressive="False" type="video">
 Downloading audio part:

@@ -2,6 +2,7 @@
 
 import ffmpeg
 import argparse
+import pyqrcode
 
 from pytube import YouTube
 
@@ -19,8 +20,9 @@ print("* Author: " + yt.author)
 print("* Desciption: " + yt.description)
 print("* Is age Restictred?  " + str(yt.age_restricted))
 print("* Views: " + str(yt.views))
+print("* QR:\n" + pyqrcode.create(args.youtube).terminal(quiet_zone=1))
 
-print("\nDownloading video part:")
+print("\n\nDownloading video part:")
 print(yt.streams.filter(file_extension='mp4',type="video").order_by('resolution')[-1])
 yt.streams.filter(file_extension='mp4',type="video").order_by('resolution')[-1].download( output_path='tmp', filename='video', skip_existing=args.skip)
 
