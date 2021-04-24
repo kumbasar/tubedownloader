@@ -1,4 +1,4 @@
-pytube3
+pytube
 ffmpeg-python
 argparse
 pyqrcode
